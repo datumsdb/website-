@@ -62,5 +62,5 @@
 <body>
     <section class="main">
         <h1>Welcome to datum_sdb website</h1>
-        <a href="publicx.html">Let's go</a>
+        <a href="publicx.html">Continue</a>
     </section>
