@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+	<meta meta name="viewport" content="width=device-width, user-scalable=no" />
+<title>publicX </title>
+<script
+  src="https://code.jquery.com/jquery-3.6.0.js"></script>
+  <link rel="stylesheet" href="publicx.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+            <h1>datum_<spanA>sdb</spanA></h1>
+            <nav>
+                <ul id="menuList"> 
+               <li><a href="#">Home</a></li>
+               <li><a href="#">Server</a></li>
+               <li><a href="#">Terms</a></li>
+               <li><a href="#">Code_</a></li>
+               <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+ <div class="container" onclick="togglemenu()">
+  <div class="bar1"></div>
+  <div class="bar2"></div>
+  <div class="bar3"></div>
+</div>
+    </header>
+    <script>
+    var menuList = document.getElementById("menuList");
+    
+    menuList.style.maxHeight = "0px";
+    
+    function togglemenu(){
+        if(menuList.style.maxHeight == "0px")
+        {
+            menuList.style.maxHeight = "130px";
+        }
+        else
+        {
+            menuList.style.maxHeight = "0px";
+        }
+    }
+    </script>
+    
+    <section class="publicx">
+        <div class="public">
+     <div class="main">
+         <h1>Data Structure:</h1>
+         <h2>Database and diagrams</h2>
+         <h3>Platform where you will create data</h3>
+         <h4>Programming languages: MySQL, PHP, Python...</h4>
+         <h5>The strong effective data security, safety servers and community partners </h5>
+         <a href="#">Know more</a>
+     </div>
+     
+     <div class="bg">
+         <div class="point"></div>
+         <div class="point2"></div>
+         <div class="point3"></div>
+         <img src="bg.svg">
+     </div>
+     </div>
+     
+    </section>
