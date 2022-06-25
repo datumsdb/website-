@@ -1,0 +1,2452 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400&display=swap');
+
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Roboto Mono', monospace;
+}
+
+
+
+
+header 
+{
+    position: absolute;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    background: rgba(0,0,0,0.0);
+}
+
+
+
+
+header h1
+{
+    font-size: 1.3em;
+    color: #fff;
+    cursor: pointer;
+    margin: 30px 20px;
+}
+
+
+
+header h1 spanA 
+{
+    color: orange;
+}
+
+
+header .container {
+  display: none;
+  cursor: pointer;
+}
+
+.bar1, .bar2, .bar3 {
+  width: 25px;
+  height: 2px;
+  background-color: #fff;
+  margin: 5px 0;
+  transition: 0.4s;
+  border-radius: 15px;
+}
+
+.change .bar1 {
+  -webkit-transform: rotate(-45deg) translate(-9px, 6px);
+  transform: rotate(-45deg) translate(-9px, 6px);
+}
+
+.change .bar2 {opacity: 0;}
+
+.change .bar3 {
+  -webkit-transform: rotate(45deg) translate(-8px, -8px);
+  transform: rotate(45deg) translate(-8px, -8px);
+}
+
+
+nav 
+{
+    flex: 1;
+    text-align: right;
+}
+
+
+nav ul li 
+{
+    list-style: none;
+    display: inline-block;
+    margin-right: 30px;
+}
+
+
+
+nav ul li a 
+{
+    font-size: 1em;
+    color: #fff;
+}
+
+
+
+nav ul li a:hover
+{
+    color: rgba(255,255,255,0.2);
+    transition: 0.3s;
+}
+
+
+
+.main 
+    {
+        width: 100%;
+        height: 700px;
+        display: flex;
+        justify-content: center;
+        background: #272630;
+    }
+    
+    
+    .main .ma 
+    {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .main .ma h1
+{
+    font-size: 1.3em;
+    color: #fff;
+}
+
+.main .ma a 
+{
+    padding: 13px 45px;
+    font-size: 1.1em;
+    background: #fff;
+    color: #222;
+    border-radius: 10px;
+}
+
+
+
+
+.publicx
+{
+    width: 100%;
+    height: 800px;
+    display: flex;
+    justify-content: center;
+    background: #272630;
+}
+
+
+
+.publicx .public 
+{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 15px;
+}
+
+
+
+
+
+.publicx .bg .point
+{
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background: rgba(255,255,255,0.4);
+    border-radius: 50%;
+    margin-top: 8rem;
+    animation: changeColor1 linear 3s infinite alternate, 
+    changeMotion1 linear 10s infinite alternate;
+}
+
+
+
+@keyframes changeColor1
+{
+    0%
+    {
+        box-shadow: 0px 0px 1px 1px #f2f2f2;
+    }
+    50%
+    {
+        box-shadow: 0px 0px 0px 0px;
+    }
+    100%
+    {
+        box-shadow: 0px 0px 1px 1px #f2f2f2;
+    }
+}
+
+
+
+
+
+@keyframes changeMotion1
+{
+    0%
+    {
+        margin-left: 170px;
+        margin-top: 23rem;
+    }
+    25%
+    {
+        margin-top: 5rem;
+        margin-left: -180px;
+    }
+    50%
+    {
+        margin-top: 7rem;
+        margin-left: -80px;
+    }
+    75%
+    {
+        margin-top: 10rem;
+        margin-left: -80px;
+    }
+    100%
+    {
+        margin-left: 150px;
+        margin-top: 7rem;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+.publicx .bg .point2
+{
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background: rgba(255,255,255,0.4);
+    border-radius: 50%;
+    margin-top: 8rem;
+    animation: changeColor2 linear 3s infinite alternate, 
+    changeMotion2 linear 18s infinite alternate;
+}
+
+
+
+@keyframes changeColor2
+{
+    0%
+    {
+        box-shadow: 0px 0px 1px 1px #f2f2f2;
+    }
+    50%
+    {
+        box-shadow: 0px 0px 0px 0px;
+    }
+    100%
+    {
+        box-shadow: 0px 0px 1px 1px #f2f2f2;
+    }
+}
+
+
+
+
+
+@keyframes changeMotion2
+{
+    0%
+    {
+        margin-left: 170px;
+        margin-top: 23rem;
+    }
+    25%
+    {
+        margin-top: 3rem;
+        margin-left: 280px;
+    }
+    50%
+    {
+        margin-top: 5rem;
+        margin-left: -80px;
+    }
+    75%
+    {
+        margin-top: 8rem;
+        margin-left: -80px;
+    }
+    100%
+    {
+        margin-left: 150px;
+        margin-top: 7rem;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+.publicx .bg .point3
+{
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background: rgba(255,255,255,0.4);
+    border-radius: 50%;
+    margin-top: 8rem;
+    animation: changeColor3 linear 3s infinite alternate, 
+    changeMotion3 linear 14s infinite alternate;
+}
+
+
+
+@keyframes changeColor3
+{
+    0%
+    {
+        box-shadow: 0px 0px 1px 1px #f2f2f2;
+    }
+    50%
+    {
+        box-shadow: 0px 0px 0px 0px;
+    }
+    100%
+    {
+        box-shadow: 0px 0px 1px 1px #f2f2f2;
+    }
+}
+
+
+
+
+
+@keyframes changeMotion3
+{
+    0%
+    {
+        margin-left: 170px;
+        margin-top: 23rem;
+    }
+    25%
+    {
+        margin-top: 9rem;
+        margin-left: -320px;
+    }
+    50%
+    {
+        margin-top: 17rem;
+        margin-left: -80px;
+    }
+    75%
+    {
+        margin-top: 8rem;
+        margin-left: -80px;
+    }
+    100%
+    {
+        margin-left: 150px;
+        margin-top: 10rem;
+    }
+}
+
+
+
+
+
+
+.publicx .bg .point4
+{
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background: rgba(255,255,255,0.4);
+    border-radius: 50%;
+    margin-top: 8rem;
+    animation: changeColor4 linear 3s infinite alternate, 
+    changeMotion4 linear 20s infinite alternate;
+}
+
+
+
+@keyframes changeColor4
+{
+    0%
+    {
+        box-shadow: 0px 0px 1px 1px #f2f2f2;
+    }
+    50%
+    {
+        box-shadow: 0px 0px 0px 0px;
+    }
+    100%
+    {
+        box-shadow: 0px 0px 1px 1px #f2f2f2;
+    }
+}
+
+
+
+
+
+@keyframes changeMotion4
+{
+    0%
+    {
+        margin-left: 170px;
+        margin-top: 23rem;
+    }
+    25%
+    {
+        margin-top: 4rem;
+        margin-left: -20px;
+    }
+    50%
+    {
+        margin-top: 7rem;
+        margin-left: 160px;
+    }
+    75%
+    {
+        margin-top: 6rem;
+        margin-left: -80px;
+    }
+    100%
+    {
+        margin-left: -150px;
+        margin-top: 8rem;
+    }
+}
+
+
+
+
+
+
+
+
+.publicx .bg .point5
+{
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background: rgba(255,255,255,0.4);
+    border-radius: 50%;
+    margin-top: 8rem;
+    animation: changeColor5 linear 3s infinite alternate, 
+    changeMotion5 linear 17s infinite alternate;
+}
+
+
+
+@keyframes changeColor5
+{
+    0%
+    {
+        box-shadow: 0px 0px 1px 1px #f2f2f2;
+    }
+    50%
+    {
+        box-shadow: 0px 0px 0px 0px;
+    }
+    100%
+    {
+        box-shadow: 0px 0px 1px 1px #f2f2f2;
+    }
+}
+
+
+
+
+
+@keyframes changeMotion5
+{
+    0%
+    {
+        margin-left: 170px;
+        margin-top: 23.5rem;
+    }
+    25%
+    {
+        margin-top: 2rem;
+        margin-left: -120px;
+    }
+    50%
+    {
+        margin-top: 6rem;
+        margin-left: -180px;
+    }
+    75%
+    {
+        margin-top: 18rem;
+        margin-left: -280px;
+    }
+    100%
+    {
+        margin-left: 50px;
+        margin-top: 7rem;
+    }
+}
+
+
+
+
+
+
+
+
+.publicx .bg img 
+{
+    width: 470px;
+    margin-top: 16.5rem;
+}
+
+
+
+
+.publicx .main
+{
+    display: block;
+    padding: 30px;
+}
+
+
+
+
+
+
+.publicx .main h1 
+{
+    font-size: 3.7em;
+    color: orange;
+    margin-top: 14rem;
+}
+
+
+
+
+.publicx .main h2
+{
+    font-size: 2.8em;
+    color: #f2f2f2;
+}
+
+
+
+
+.publicx .main h3
+{
+    font-size: 2.3em;
+    color: #f2f2f2;
+}
+
+
+
+
+.publicx .main h4
+{
+    font-size: 1.2em;
+    color: rgba(255,255,255,0.3);
+}
+
+
+
+
+.publicx .main h5
+{
+    font-size: 1.2em;
+    color: rgba(255,255,255,0.3);
+}
+
+
+
+.publicx .main a 
+{
+    position: absolute;
+    display: inline-block;
+    padding: 17px 90px;
+    background: orange;
+    font-size: 1.6em;
+    color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 9px #999;
+    margin-top: 2rem;
+}
+
+
+
+.publicx .main a:active
+{
+    box-shadow: 0 5px #999;
+    transform: translateY(4px);
+    transition: 0.3s;
+}
+
+
+
+
+
+/**********About**********/
+
+
+.about 
+{
+    width: 100%;
+    height: 800px;
+    display: block;
+    background: #272630;
+}
+
+
+
+
+.about h1 
+{
+    font-size: 2.6em;
+    color: #fff;
+    padding: 25px;
+}
+
+
+
+.about h5
+{
+    font-size: 2em;
+    color: rgba(255,255,255,0.4);
+    padding: 25px;
+}
+
+
+
+
+
+.about .abot 
+{
+    padding: 0px 30px;
+}
+
+
+
+
+.about .boxes 
+{
+    display: flex;
+    justify-content: center;
+    margin-top: 6rem;
+}
+
+
+
+
+.about .boxes .box
+{
+    width: 270px;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    background: rgba(255,255,255,0.4);
+    border-radius: 7px;
+    box-shadow: 6px 9px 18px rgba(255,255,255,0.2);
+    margin: 1.5rem;
+}
+
+
+
+
+
+.about .boxes .box h1 
+{
+    position: absolute;
+    font-size: 1.6em;
+    color: #dc8e16;
+    margin-top: 1rem;
+}
+
+
+
+
+
+.about .boxes .box h2
+{
+    position: absolute;
+    font-size: 1em;
+    color: #fff;
+    margin-top: 5rem;
+}
+
+
+
+
+
+.about .boxes .box h3
+{
+    position: absolute;
+    font-size: 0.9em;
+    color: #fff;
+    margin-top: 7rem;
+}
+
+
+
+
+.about .boxes .box h4
+{
+    position: absolute;
+    font-size: 0.85em;
+    color: #fff;
+    margin-top: 9rem;
+}
+
+
+
+
+.about .boxes .box img 
+{
+    position: absolute;
+    width: 180px;
+    margin-top: 12.5rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/**********More**********/
+
+
+
+.more 
+{
+    width: 100%;
+    height: 800px;
+    background: #272630;
+}
+
+
+
+.more h1 
+{
+    font-size: 1.5em;
+    color: rgba(255,255,255,0.6);
+    padding: 15px;
+}
+
+
+
+
+.more canvas
+{
+    position: absolute;
+    margin-top: 3rem;
+}
+
+
+
+
+.more .boxm
+{
+    display: none;
+    justify-content: center;
+    margin-top: 23rem;
+}
+
+
+
+
+
+
+
+/*********Loader*********/
+
+
+.loader 
+{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    left: 0%;
+    top: 0%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #272630;
+}
+
+
+
+.loader h1
+{
+    position: absolute;
+    font-size: 3em;
+    color: #fff;
+    margin-top: 28rem;
+}
+
+
+
+
+.loader h1 spanB
+{
+    color: orange;
+}
+
+
+
+
+.loader .loadi {
+  width: 175px;
+  height: 80px;
+  display: block;
+  margin:auto;
+  background-image: linear-gradient(#263238 50px, transparent 0), radial-gradient(circle 25px at 25px 25px, #FFF 100%, transparent 0), radial-gradient(circle 50px at 50px 50px, #FFF 100%, transparent 0), radial-gradient(circle 25px at 25px 25px, #FFF 100%, transparent 0), linear-gradient(#FFF 50px, transparent 0);
+  background-size: 64px 6px, 50px 50px, 100px 76px, 50px 50px, 120px 40px;
+  background-position: 55px 60px, 0px 30px, 37px 0px, 122px 30px, 25px 40px;
+  background-repeat: no-repeat;
+  position: relative;
+  box-sizing: border-box;
+}
+.loadi::after {
+  content: '';  
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%) rotate(-180deg);
+  top: 62px;
+  height: 64px;
+  width: 60px;
+  background-color: #FFF;
+  background-image: linear-gradient(#DDD 20px, transparent 0), linear-gradient(#DDD 5px, transparent 0), linear-gradient(#DDD 10px, transparent 0), linear-gradient(#DDD 10px, transparent 0);
+  background-size: 50px 20px;
+  background-position: 5px 36px, 5px 25px, 5px 10px;
+  background-repeat: no-repeat;
+  border-radius: 2px 2px 4px 4px;
+  z-index: 10;
+  box-shadow: 0px -4px 7px rgba(0, 0, 0, 0.5);
+  box-sizing: border-box;
+  animation: animloader 4s linear infinite;
+}
+
+@keyframes animloader {
+  0% {
+    height: 64px;
+  }
+  90%, 100% {
+    height: 0px;
+  }
+}
+
+
+
+
+
+
+
+
+/******Footer*******/
+
+
+footer 
+{
+    position: absolute;
+    width: 100%;
+    height: 350px;
+    display: flex;
+    justify-content: space-between;
+    background: #272630;
+    padding: 25px;
+}
+
+
+
+footer .first li 
+{
+    margin-top: 10px;
+}
+
+
+footer .first li a
+{
+    font-size: 1.2em;
+    color: #fff;
+}
+
+
+footer .first li a:hover
+{
+    color: rgba(255,255,255,0.3);
+    transition: 0.3s;
+}
+
+
+
+footer .second
+{
+    margin-left: 250px;
+}
+
+
+
+footer .second li 
+{
+    margin-top: 10px;
+}
+
+
+footer .second li a
+{
+    font-size: 1.2em;
+    color: #fff;
+}
+
+
+
+footer .second li a:hover
+{
+    color: rgba(255,255,255,0.3);
+    transition: 0.3s;
+}
+
+
+
+
+
+
+footer .third
+{
+    margin-left: 250px;
+}
+
+
+
+footer .third li 
+{
+    margin-top: 10px;
+}
+
+
+footer .third li a
+{
+    font-size: 1.2em;
+    color: #fff;
+}
+
+
+
+footer .third li a:hover
+{
+    color: rgba(255,255,255,0.3);
+    transition: 0.3s;
+}
+
+
+
+footer .down
+{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    margin-top: 16rem;
+}
+
+
+
+footer .down p
+{
+    font-size: 1.2em;
+    color: #f2f2f2;
+}
+
+
+
+
+
+
+
+/********More2*********/
+
+
+.more2 
+{
+    width: 100%;
+    height: 800px;
+    display: flex;
+    justify-content: space-between;
+    background: #272630;
+}
+
+
+
+.more2 h1
+{
+    position: absolute;
+    font-size: 1.8em;
+    color: green;
+    padding: 15px;
+}
+
+
+
+.more2 .words 
+{
+    display: block;
+    padding: 15px;
+    margin-top: 6rem;
+}
+
+
+
+.more2 .words .one 
+{
+    font-size: 1.6em;
+    color: orange;
+}
+
+
+
+
+.more2 .words .two
+{
+    font-size: 1.6em;
+    color: #2db2e6;
+}
+
+
+
+
+.more2 .words .three
+{
+    font-size: 1.6em;
+    color: #fff;
+}
+
+
+
+
+
+.more2 .words .four
+{
+    font-size: 1.6em;
+    color: rgba(255,255,255,0.4);
+}
+
+
+
+
+
+.more2 .ima 
+{
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
+.more2 .ima img 
+{
+    width: 320px;
+    margin-top: -22rem;
+    margin-right: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/********Terminal********/
+
+
+.terminal 
+{
+    position: fixed;
+    width: 100%;
+    height: 800px;
+    background: #272630;
+}
+
+
+
+.terminal textarea
+{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #272630;
+    color: #fff;
+    padding: 10px;
+    list-style: none;
+}
+
+
+
+
+
+
+
+
+/*********Contact*********/
+
+
+.contact 
+{
+    position: fixed;
+    width: 100%;
+    height: 900px;
+    display: flex;
+    justify-content: center;
+    background: #272630;
+}
+
+
+
+
+.contact .box
+{
+    position: absolute;
+    width: 380px;
+    height: 540px;
+    display: flex;
+    justify-content: center;
+    background: rgba(255,255,255,0.4);
+    border-radius: 10px;
+    margin-top: 7rem;
+    box-shadow: 5px 10px 15px rgba(255,255,255,0.2);
+}
+
+
+
+
+.contact .box h1 
+{
+    position: absolute;
+    font-size: 2.2em;
+    color: orange;
+    margin-top: 0.8rem;
+}
+
+
+
+.contact .box form 
+{
+    margin-top: 6rem;
+}
+
+
+
+.contact .box form label
+{
+    font-size: 1.7em;
+    color: #fff;
+}
+
+
+
+.contact .box form input
+{
+    width: 320px;
+    height: 65px;
+    border: none;
+    padding: 7px;
+    background: rgba(255,255,255,0.3);
+    font-size: 1.2em;
+    border-radius: 3px;
+}
+
+
+
+
+
+.contact .box form textarea
+{
+    width: 320px;
+    height: 105px;
+    border: none;
+    padding: 7px;
+    background: rgba(255,255,255,0.3);
+    font-size: 1.2em;
+    border-radius: 3px;
+}
+
+
+
+
+.contact .box form .button
+{
+    display: flex;
+    justify-content: center;
+    margin-top: 1.5rem;
+}
+
+
+
+
+.contact .box form .button button 
+{
+    padding: 11px 55px;
+    border: none;
+    background: orange;
+    color: #fff;
+    font-size: 1.15em;
+    border-radius: 5px;
+    box-shadow: 0 9px #777;
+}
+
+
+
+
+.contact .box form .button button:active
+{
+    box-shadow: 0 5px #555;
+    transform: translateY(4px);
+    transition: 0.3s;
+}
+
+
+
+
+
+
+
+@media only screen and (max-width: 1000px) {
+
+
+
+nav ul 
+{
+    position: absolute;
+    width: 100%;
+    background: rgba(255,255,255,0.1);
+    backdrop-filter: blur(15px);
+    top: 50px;
+    right: 0;
+    z-index: 3;
+}
+
+
+
+nav ul li 
+{
+    display: block;
+    margin-top: 4px;
+    margin-bottom: 4px;
+}
+
+
+
+nav ul li a 
+{
+    color: #fff;
+}
+
+
+
+nav ul li a:hover 
+{
+    color: rgba(255,255,255,0.2);
+    transition: 0.3s;
+}
+
+
+
+
+header .container {
+  display: block;
+  margin-right: 5px;
+}
+
+
+
+#menuList
+{
+    overflow: hidden;
+    transition: 0.5s;
+}
+
+
+
+.publicx
+{
+    width: 100%;
+    height: 800px;
+    background: #272630;
+}
+
+
+.publicx .public 
+{
+    flex-direction: column-reverse;
+    padding: 0px 15px;
+}
+
+
+
+
+.publicx .bg 
+{
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.publicx .bg .point
+{
+    position: absolute;
+    width: 4px;
+    height: 4px;
+    background: rgba(255,255,255,0.4);
+    border-radius: 50%;
+    margin-top: 8rem;
+    animation: changeColor1 linear 3s infinite alternate, 
+    changeMotion1 linear 10s infinite alternate;
+}
+
+
+
+@keyframes changeColor1
+{
+    0%
+    {
+        box-shadow: 0px 0px 1px 1px #f2f2f2;
+    }
+    50%
+    {
+        box-shadow: 0px 0px 0px 0px;
+    }
+    100%
+    {
+        box-shadow: 0px 0px 1px 1px #f2f2f2;
+    }
+}
+
+
+
+
+
+@keyframes changeMotion1
+{
+    0%
+    {
+        margin-left: -60px;
+        margin-top: 11.8rem;
+    }
+    25%
+    {
+        margin-top: 5rem;
+        margin-left: -180px;
+    }
+    50%
+    {
+        margin-top: 7rem;
+        margin-left: -80px;
+    }
+    75%
+    {
+        margin-top: 10rem;
+        margin-left: -80px;
+    }
+    100%
+    {
+        margin-left: 150px;
+        margin-top: 7rem;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+.publicx .bg .point2
+{
+    position: absolute;
+    width: 4px;
+    height: 4px;
+    background: rgba(255,255,255,0.4);
+    border-radius: 50%;
+    margin-top: 8rem;
+    animation: changeColor2 linear 3s infinite alternate, 
+    changeMotion2 linear 18s infinite alternate;
+}
+
+
+
+@keyframes changeColor2
+{
+    0%
+    {
+        box-shadow: 0px 0px 1px 1px #f2f2f2;
+    }
+    50%
+    {
+        box-shadow: 0px 0px 0px 0px;
+    }
+    100%
+    {
+        box-shadow: 0px 0px 1px 1px #f2f2f2;
+    }
+}
+
+
+
+
+
+@keyframes changeMotion2
+{
+    0%
+    {
+        margin-left: -40px;
+        margin-top: 12.5rem;
+    }
+    25%
+    {
+        margin-top: 3rem;
+        margin-left: 280px;
+    }
+    50%
+    {
+        margin-top: 5rem;
+        margin-left: -80px;
+    }
+    75%
+    {
+        margin-top: 8rem;
+        margin-left: -80px;
+    }
+    100%
+    {
+        margin-left: 150px;
+        margin-top: 7rem;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+.publicx .bg .point3
+{
+    position: absolute;
+    width: 4px;
+    height: 4px;
+    background: rgba(255,255,255,0.4);
+    border-radius: 50%;
+    margin-top: 8rem;
+    animation: changeColor3 linear 3s infinite alternate, 
+    changeMotion3 linear 14s infinite alternate;
+}
+
+
+
+@keyframes changeColor3
+{
+    0%
+    {
+        box-shadow: 0px 0px 1px 1px #f2f2f2;
+    }
+    50%
+    {
+        box-shadow: 0px 0px 0px 0px;
+    }
+    100%
+    {
+        box-shadow: 0px 0px 1px 1px #f2f2f2;
+    }
+}
+
+
+
+
+
+@keyframes changeMotion3
+{
+    0%
+    {
+        margin-left: -40px;
+        margin-top: 13rem;
+    }
+    25%
+    {
+        margin-top: 9rem;
+        margin-left: -320px;
+    }
+    50%
+    {
+        margin-top: 17rem;
+        margin-left: -80px;
+    }
+    75%
+    {
+        margin-top: 8rem;
+        margin-left: -80px;
+    }
+    100%
+    {
+        margin-left: 150px;
+        margin-top: 10rem;
+    }
+}
+
+
+
+
+
+
+
+
+
+.publicx .bg .point4
+{
+    position: absolute;
+    width: 4px;
+    height: 4px;
+    background: rgba(255,255,255,0.4);
+    border-radius: 50%;
+    margin-top: 8rem;
+    animation: changeColor4 linear 3s infinite alternate, 
+    changeMotion4 linear 20s infinite alternate;
+}
+
+
+
+@keyframes changeColor4
+{
+    0%
+    {
+        box-shadow: 0px 0px 1px 1px #f2f2f2;
+    }
+    50%
+    {
+        box-shadow: 0px 0px 0px 0px;
+    }
+    100%
+    {
+        box-shadow: 0px 0px 1px 1px #f2f2f2;
+    }
+}
+
+
+
+
+
+@keyframes changeMotion4
+{
+    0%
+    {
+        margin-left: -40px;
+        margin-top: 13rem;
+    }
+    25%
+    {
+        margin-top: 4rem;
+        margin-left: -20px;
+    }
+    50%
+    {
+        margin-top: 7rem;
+        margin-left: 360px;
+    }
+    75%
+    {
+        margin-top: 6rem;
+        margin-left: -80px;
+    }
+    100%
+    {
+        margin-left: -150px;
+        margin-top: 8rem;
+    }
+}
+
+
+
+
+
+
+
+
+.publicx .bg .point5
+{
+    position: absolute;
+    width: 4px;
+    height: 4px;
+    background: rgba(255,255,255,0.4);
+    border-radius: 50%;
+    margin-top: 8rem;
+    animation: changeColor5 linear 3s infinite alternate, 
+    changeMotion5 linear 17s infinite alternate;
+}
+
+
+
+@keyframes changeColor5
+{
+    0%
+    {
+        box-shadow: 0px 0px 1px 1px #f2f2f2;
+    }
+    50%
+    {
+        box-shadow: 0px 0px 0px 0px;
+    }
+    100%
+    {
+        box-shadow: 0px 0px 1px 1px #f2f2f2;
+    }
+}
+
+
+
+
+
+@keyframes changeMotion5
+{
+    0%
+    {
+        margin-left: -40px;
+        margin-top: 14.5rem;
+    }
+    25%
+    {
+        margin-top: 2rem;
+        margin-left: -120px;
+    }
+    50%
+    {
+        margin-top: 6rem;
+        margin-left: -180px;
+    }
+    75%
+    {
+        margin-top: 18rem;
+        margin-left: -280px;
+    }
+    100%
+    {
+        margin-left: 50px;
+        margin-top: 7rem;
+    }
+}
+
+
+
+
+
+
+
+
+
+.publicx .bg img 
+{
+    width: 190px;
+    margin-top: 10rem;
+}
+
+
+
+
+.publicx .main
+{
+    display: block;
+    padding: 0px;
+}
+
+
+
+.publicx .main h1 
+{
+    font-size: 1.8em;
+    color: orange;
+    margin-top: 5.5rem;
+}
+
+
+
+
+.publicx .main h2
+{
+    font-size: 1.3em;
+    color: #f2f2f2;
+}
+
+
+
+
+.publicx .main h3
+{
+    font-size: 1em;
+    color: #f2f2f2;
+}
+
+
+
+
+.publicx .main h4
+{
+    font-size: 1.2em;
+    color: rgba(255,255,255,0.3);
+}
+
+
+
+
+.publicx .main h5
+{
+    font-size: 1.2em;
+    color: rgba(255,255,255,0.3);
+}
+
+
+
+
+.publicx .main a 
+{
+    position: absolute;
+    display: inline-block;
+    padding: 12px 55px;
+    background: orange;
+    font-size: 1.1em;
+    color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 9px #999;
+    margin-top: 2rem;
+}
+
+
+
+.publicx .main a:active
+{
+    box-shadow: 0 5px #999;
+    transform: translateY(4px);
+    transition: 0.3s;
+}
+
+
+
+
+
+
+/**********About**********/
+
+
+.about 
+{
+    width: 100%;
+    height: 1550px;
+    background: #272630;
+}
+
+
+
+
+.about h1 
+{
+    font-size: 1.6em;
+    color: #fff;
+    padding: 15px;
+}
+
+
+
+
+
+.about h5
+{
+    font-size: 1.4em;
+    color: rgba(255,255,255,0.4);
+    padding: 15px;
+}
+
+
+
+
+
+.about .boxes 
+{
+    display: grid;
+    grid-template-columns: 1fr;
+    margin-top: 6rem;
+}
+
+
+
+
+.about .boxes .box
+{
+    width: 270px;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    background: rgba(255,255,255,0.4);
+    border-radius: 7px;
+    box-shadow: 6px 9px 18px rgba(255,255,255,0.2);
+    margin: auto;
+    margin-top: 2rem;
+}
+
+
+
+
+
+.about .boxes .box h1 
+{
+    position: absolute;
+    font-size: 1.6em;
+    color: #dc8e16;
+    margin-top: 1rem;
+}
+
+
+
+
+
+.about .boxes .box h2
+{
+    position: absolute;
+    font-size: 1em;
+    color: #fff;
+    margin-top: 5rem;
+}
+
+
+
+
+
+.about .boxes .box h3
+{
+    position: absolute;
+    font-size: 0.9em;
+    color: #fff;
+    margin-top: 7rem;
+}
+
+
+
+
+.about .boxes .box h4
+{
+    position: absolute;
+    font-size: 0.85em;
+    color: #fff;
+    margin-top: 9rem;
+}
+
+
+
+
+.about .boxes .box img 
+{
+    position: absolute;
+    width: 180px;
+    margin-top: 12.5rem;
+}
+
+
+
+
+
+
+
+
+/**********More**********/
+
+
+
+.more 
+{
+    width: 100%;
+    height: 900px;
+    background: #272630;
+}
+
+
+
+.more h1 
+{
+    font-size: 1.5em;
+    color: rgba(255,255,255,0.6);
+    padding: 15px;
+}
+
+
+
+
+
+
+.more canvas
+{
+    position: absolute;
+    width: 300px;
+    height: 350px;
+    margin-top: 6rem;
+}
+
+
+
+.more .boxm
+{
+    display: flex;
+    justify-content: center;
+    margin-top: 31rem;
+}
+
+
+
+.more .boxm .box 
+{
+    width: 280px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    background: #fff;
+    border-radius: 7px;
+}
+
+
+
+
+.more .boxm .box h1 
+{
+    position: absolute;
+    font-size: 1.5em;
+    color: #222;
+    margin-top: 0.5rem;
+}
+
+
+
+
+.more .boxm .box p
+{
+    position: absolute;
+    font-size: 1.3em;
+    color: #444;
+    margin-top: 3.5rem;
+}
+
+
+
+.more .boxm .box ul 
+{
+    position: absolute;
+    text-align: center;
+    margin-top: 7rem;
+}
+
+
+
+.more .boxm .box ul li a
+{
+    font-size: 1.1em;
+    color: #777;
+}
+
+
+.more .boxm .box ul li a:hover 
+{
+    color: rgba(0,0,0,0.2);
+    transition: 0.3s;
+}
+
+
+
+
+
+
+/*********Loader*********/
+
+
+.loader 
+{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    left: 0%;
+    top: 0%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #272630;
+}
+
+
+
+.loader h1
+{
+    position: absolute;
+    font-size: 2em;
+    color: #fff;
+    margin-top: 28rem;
+}
+
+
+
+
+.loader h1 spanB
+{
+    color: orange;
+}
+
+
+
+
+.loader .loadi {
+  width: 175px;
+  height: 80px;
+  display: block;
+  margin:auto;
+  background-image: linear-gradient(#263238 50px, transparent 0), radial-gradient(circle 25px at 25px 25px, #FFF 100%, transparent 0), radial-gradient(circle 50px at 50px 50px, #FFF 100%, transparent 0), radial-gradient(circle 25px at 25px 25px, #FFF 100%, transparent 0), linear-gradient(#FFF 50px, transparent 0);
+  background-size: 64px 6px, 50px 50px, 100px 76px, 50px 50px, 120px 40px;
+  background-position: 55px 60px, 0px 30px, 37px 0px, 122px 30px, 25px 40px;
+  background-repeat: no-repeat;
+  position: relative;
+  box-sizing: border-box;
+}
+.loadi::after {
+  content: '';  
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%) rotate(-180deg);
+  top: 62px;
+  height: 64px;
+  width: 60px;
+  background-color: #FFF;
+  background-image: linear-gradient(#DDD 20px, transparent 0), linear-gradient(#DDD 5px, transparent 0), linear-gradient(#DDD 10px, transparent 0), linear-gradient(#DDD 10px, transparent 0);
+  background-size: 50px 20px;
+  background-position: 5px 36px, 5px 25px, 5px 10px;
+  background-repeat: no-repeat;
+  border-radius: 2px 2px 4px 4px;
+  z-index: 10;
+  box-shadow: 0px -4px 7px rgba(0, 0, 0, 0.5);
+  box-sizing: border-box;
+  animation: animloader 4s linear infinite;
+}
+
+@keyframes animloader {
+  0% {
+    height: 64px;
+  }
+  90%, 100% {
+    height: 0px;
+  }
+}
+
+
+
+
+
+
+
+
+
+/******Footer*******/
+
+footer 
+{
+    position: absolute;
+    width: 100%;
+    height: 460px;
+    display: block;
+    background: #272630;
+    padding: 15px;
+}
+
+
+
+
+
+
+footer .first li 
+{
+    margin-top: 3px;
+}
+
+
+footer .first li a
+{
+    font-size: 0.9em;
+    color: #fff;
+}
+
+
+footer .first li a:hover
+{
+    color: rgba(255,255,255,0.3);
+    transition: 0.3s;
+}
+
+
+
+footer .second
+{
+    margin-top: 2rem;
+    margin-left: 0px;
+}
+
+
+
+footer .second li 
+{
+    margin-top: 5px;
+}
+
+
+footer .second li a
+{
+    font-size: 0.9em;
+    color: #fff;
+}
+
+
+
+footer .second li a:hover
+{
+    color: rgba(255,255,255,0.3);
+    transition: 0.3s;
+}
+
+
+
+
+
+
+footer .third
+{
+    margin-left: 0px;
+    margin-top: 2rem;
+}
+
+
+
+footer .third li 
+{
+    margin-top: 5px;
+}
+
+
+footer .third li a
+{
+    font-size: 0.9em;
+    color: #fff;
+}
+
+
+
+footer .third li a:hover
+{
+    color: rgba(255,255,255,0.3);
+    transition: 0.3s;
+}
+
+
+
+footer .down
+{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    margin-top: 3rem;
+}
+
+
+
+footer .down p
+{
+    font-size: 0.7em;
+    color: #f2f2f2;
+}
+
+
+
+
+
+
+
+
+/********More2*********/
+
+
+.more2 
+{
+    width: 100%;
+    height: 800px;
+    display: block;
+    background: #272630;
+}
+
+
+
+.more2 h1
+{
+    position: absolute;
+    font-size: 1.4em;
+    color: green;
+    padding: 15px;
+}
+
+
+
+.more2 .words 
+{
+    position: absolute;
+    display: block;
+    padding: 15px;
+    margin-top: 6rem;
+}
+
+
+
+.more2 .words .one 
+{
+    font-size: 1.2em;
+    color: orange;
+}
+
+
+
+
+.more2 .words .two
+{
+    font-size: 1.2em;
+    color: #2db2e6;
+}
+
+
+
+
+.more2 .words .three
+{
+    font-size: 1.2em;
+    color: #fff;
+}
+
+
+
+
+
+.more2 .words .four
+{
+    font-size: 1.2em;
+    color: rgba(255,255,255,0.4);
+}
+
+
+
+
+
+.more2 .ima 
+{
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
+.more2 .ima img 
+{
+    width: 200px;
+    margin-top: 30rem;
+    margin-right: 0px;
+}
+
+
+
+
+
+
+/********Terminal********/
+
+
+.terminal 
+{
+    position: fixed;
+    width: 100%;
+    height: 800px;
+    background: #272630;
+}
+
+
+
+.terminal textarea
+{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #272630;
+    color: #fff;
+    padding: 10px;
+    list-style: none;
+}
+
+
+
+
+
+/*********Contact*********/
+
+
+.contact 
+{
+    position: fixed;
+    width: 100%;
+    height: 800px;
+    display: flex;
+    justify-content: center;
+    background: #272630;
+}
+
+
+
+
+.contact .box
+{
+    position: absolute;
+    width: 310px;
+    height: 420px;
+    display: flex;
+    justify-content: center;
+    background: rgba(255,255,255,0.4);
+    border-radius: 10px;
+    margin-top: 7rem;
+    box-shadow: 5px 10px 15px rgba(255,255,255,0.2);
+}
+
+
+
+
+.contact .box h1 
+{
+    position: absolute;
+    font-size: 1.7em;
+    color: orange;
+    margin-top: 0.6rem;
+}
+
+
+
+.contact .box form 
+{
+    margin-top: 4rem;
+}
+
+
+
+.contact .box form label
+{
+    font-size: 1.4em;
+    color: #fff;
+}
+
+
+
+.contact .box form input
+{
+    width: 260px;
+    height: 45px;
+    border: none;
+    padding: 7px;
+    background: rgba(255,255,255,0.3);
+    font-size: 1.1em;
+    border-radius: 3px;
+}
+
+
+
+
+
+.contact .box form textarea
+{
+    width: 260px;
+    height: 85px;
+    border: none;
+    padding: 7px;
+    background: rgba(255,255,255,0.3);
+    font-size: 1em;
+    border-radius: 3px;
+}
+
+
+
+
+.contact .box form .button
+{
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+}
+
+
+
+
+.contact .box form .button button 
+{
+    padding: 11px 45px;
+    border: none;
+    background: orange;
+    color: #fff;
+    font-size: 1.15em;
+    border-radius: 5px;
+    box-shadow: 0 9px #777;
+}
+
+
+
+
+.contact .box form .button button:active
+{
+    box-shadow: 0 5px #555;
+    transform: translateY(4px);
+    transition: 0.3s;
+}
+
+
+
+
+
+
+
+
+
+
+}
